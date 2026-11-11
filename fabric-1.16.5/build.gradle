@@ -1,0 +1,24 @@
+plugins {
+    id 'fabric-loom' version '1.6-SNAPSHOT'
+    id 'java'
+}
+
+version = '1.1.0'
+group = 'dev.fpsfake'
+base { archivesName = 'fpsfake-fabric-1.16.5' }
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:1.16.5"
+    mappings "net.fabricmc:yarn:1.16.5+build.10:v2"
+    modImplementation "net.fabricmc:fabric-loader:0.14.23"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:0.42.0+1.16"
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 8
+}

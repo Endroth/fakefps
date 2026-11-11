@@ -1,0 +1,8 @@
+pluginManagement {
+    repositories {
+        maven { url = 'https://maven.fabricmc.net/' }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'fpsfake-fabric-1.16.5'

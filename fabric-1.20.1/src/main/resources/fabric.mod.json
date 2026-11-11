@@ -1,0 +1,13 @@
+{
+	"schemaVersion": 1,
+	"id": "fpsfake",
+	"version": "1.1.0",
+	"name": "FPS Fake",
+	"description": "FPS falso no F3 (so visual). /fpsfake on|off e /fps <min> <max>.",
+	"authors": ["Voce"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": { "client": ["dev.fpsfake.FpsFakeClient"] },
+	"mixins": [ { "config": "fpsfake.mixins.json", "environment": "client" } ],
+	"depends": { "fabricloader": ">=0.14.21", "minecraft": "~1.20.1", "java": ">=17", "fabric-api": "*" }
+}

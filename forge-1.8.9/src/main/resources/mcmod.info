@@ -1,0 +1,10 @@
+[
+  {
+    "modid": "fpsfake",
+    "name": "FPS Fake",
+    "description": "FPS falso no F3 (so visual). /fpsfake on|off e /fps <min> <max>.",
+    "version": "1.1.0",
+    "mcversion": "1.8.9",
+    "authorList": ["Voce"]
+  }
+]
