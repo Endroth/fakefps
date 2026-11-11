@@ -21,6 +21,8 @@ loom {
 
 repositories {
     mavenCentral()
+    maven { url = 'https://repo.essential.gg/repository/maven-public' }
+    maven { url = 'https://maven.minecraftforge.net/' }
 }
 
 dependencies {
